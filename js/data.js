@@ -174,6 +174,11 @@ let dataArr = [
   rightAnswer: `Brahman’s gate`,
   note: `The Kundalini practice is called Brahman’s gate.`
 },
+{question: 'Who is credited with advancing the practice of yoga in the United States in the 1960s?',
+  answer: ['Swami Satchidananda', 'Bikram Choudhury', 'Tirumalai Krishnamacharya'],
+  rightAnswer: 'Swami Satchidananda.',
+  note: 'It was Swami Satchidananda.'
+}
 ]
 
 
