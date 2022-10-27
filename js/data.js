@@ -1,59 +1,60 @@
 let dataArr = [
   {question: 'The word “yoga” is derived from a Sanskrit word meaning what?',
-  answer: ['Spirit', 'Union', 'Posture'],
+  answer: ['Spirit', 'Union', 'Posture', '  '],
   rightAnswer: 'Union',
   note: `”Yoga” literally means union, referring to the union between body and mind.`
 },
 {question: 'What is not one principle taught in yoga?',
-  answer: [ 'Proper exercise', 'Relaxation', 'Strength'],
+  answer: [ 'Proper exercise', 'Relaxation', '  ', 'Strength'],
   rightAnswer: 'Proper exercise',
   note: 'Strength is not a principle taught in yoga. The main five are: proper exercise, breathing, relaxation, diet, and meditation.'
 },
 {question: ' Which country does yoga originate from?',
-  answer: ['Bangladesh', 'Thailand', 'India'],
+  answer: ['Bangladesh', 'Thailand', 'India', 'Tybet'],
   rightAnswer: 'India',
   note: 'Yoga comes from ancient India, and is thought to have developed at around the 5th century BCE.  '
 },
 {question: `There are eight stages of training for a yogi. What is the final stage (apart from ‘moksha’)?`,
-  answer: [ 'Samadhi', 'Niyama', 'Pratyahara'],
+  answer: [ 'Samadhi', 'Niyama', 'Pratyahara', 'Yama'],
   rightAnswer: 'Samadhi' ,
   note: 'The final stage of ‘ashtanga,’ a form of yoga, is samadhi. Samadhi focuses on the separation of the practitioner’s mind from their body.'
 },
 {question: `What does ‘hatha’ mean?`,
-  answer: ['Sun and Moon', 'Fire and Water', 'Light and Dark'],
+  answer: ['Sun and Moon', 'Fire and Water', 'Light and Dark', 'Ligth'],
   rightAnswer: 'Sun and Moon',
   note: `’Hatha’ means Sun and Moon, and refers to the unification of two vastly-different forces.`
 },
 {question: ' What is chakra?',
-  answer: ['Energy center', 'Prayer point', 'Karma'],
+  answer: ['Energy center', 'Prayer point', 'Karma', 'Yoga pose'],
   rightAnswer: 'Energy center',
   note: 'Chakra is an energy center, or to be straightforward, it is a focal point of energy.'
 },
 {question: 'How many chakras are in the human body?',
-  answer: [ 'Seven', 'Three', 'Twenty-five'],
+  answer: [ 'Seven', 'Three', 'Twenty-five', 'Nine'],
   rightAnswer: 'Seven',
   note: 'There are seven chakras in the human body — Muladhara, Svadhishthana, Sahasrara, Ajna, Manipura, Vishuddha, and Anahata.'
 },
 {question: `What does ‘namaste’ mean?`,
-  answer: ['Salutations to you', 'Have a good day', 'Thank you'],
+  answer: ['Salutations to you', 'Have a good day', 'Thank you', 'See you later'],
   rightAnswer: 'Salutations to you',
   note: `’Namaste’ literally means ‘salutations to you.’`
 },
 {question: 'What is a yogi?',
-  answer: [' A yoga instructor', 'A yoga learner','The highest title given to a performer of yoga'],
+  answer: [' A yoga instructor', 'A yoga learner', 'Bothisattva','The highest title given to a performer of yoga'],
   rightAnswer: ' A yoga instructor' ,
   note: 'Yogi refers to a yoga instructor.'
 },
 {question: 'There are twenty-six postures that make up Bikram Yoga. Which of these is not one of those postures?',
-  answer: ['Cobra Pose', 'Tree Pose', 'Sun Salutation Pose'],
+  answer: ['Cobra Pose', 'Tree Pose', 'Sun Salutation Pose', 'Snake Pose'],
   rightAnswer: 'Sun Salutation Pose',
   note: 'Sun Salutation is not the name of a Bikram Yoga posture. It is, however, a collection of postures.'
 },
 {question: 'Where is Kundalini located?',
-  answer: ['the base of the spine', 'the brain', 'the whole body'],
+  answer: ['the base of the spine', 'the brain', 'the head top', 'the whole body'],
   rightAnswer: 'the base of the spine',
   note: 'Kundalini, which is in Hinduism a form of primal energy, is said to be located at the base of the spine.'
-},
+}
+]/*,
 {question: ' What is not one way to awaken Kundalini, according to hatha yoga?',
   answer: ['Kumbhaka', 'Mula Bandha', 'Samaveda'],
   rightAnswer: 'Samaveda',
@@ -180,7 +181,7 @@ let dataArr = [
   note: 'It was Swami Satchidananda.'
 }
 ]
-
+*/
 
 export default dataArr;
 /*
