@@ -295,8 +295,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;  
-  color: #fff;
-  font-size: 14px;
+  color: #FEF3EE;
+  font-size: 16px;  
+  letter-spacing: 2px;
   background-color: #5F413A;
   padding: 5px 0;
 }
@@ -429,5 +430,17 @@ body {
   
   .footer__contact {   
     gap: 8px
+  }
+}
+
+@media (max-width: 480px) {
+  .progress__wrapper {
+    font-size: 16px;
+    padding: 5px 20px;
+    display: block;
+  }
+
+  .progress__block {
+    padding-bottom: 10px;
   }
 }

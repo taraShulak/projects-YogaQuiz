@@ -185,7 +185,7 @@ function createQuestion(event) {
   }
  
   if(event.target == start && inProgres == true) {
-    let random = 1 + Math.floor(Math.random() * 24)
+    let random = 1 + Math.floor(Math.random() * 22)
     mainImg.setAttribute('src', `./img/${random}.jpeg`)
     nextQuestion()    
   } 
