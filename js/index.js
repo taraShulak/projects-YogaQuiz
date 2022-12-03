@@ -94,6 +94,7 @@ function verify(selectNumber) {
         document.querySelector(`.item-${selectNumber}`).classList.remove('chouse__item')
         questionBlockQuestion.textContent = `${questions[0].note}`
         questionBlockTitle.textContent = 'Excellent!!! You are right!!!'
+        questionBlockTitle.classList.add('green')
         correctAnswer++;
         allredyAnswer = true
         progressAllItem[proItem].classList.add('gold')
@@ -102,7 +103,8 @@ function verify(selectNumber) {
     } else {
         document.querySelector(`.item-${selectNumber}`).classList.add('wrong__item')
         document.querySelector(`.item-${selectNumber}`).classList.remove('chouse__item')
-        questionBlockTitle.textContent = 'Wrong...You are mistaken...'       
+        questionBlockTitle.textContent = 'Wrong...You are mistaken...'  
+        questionBlockTitle.classList.add('brown')     
         allredyAnswer = true
         progressAllItem[proItem].classList.add('cyan')
         proItem++   
@@ -206,7 +208,8 @@ function createQuestion(event) {
       }
     }
   }
-
+    questionBlockTitle.classList.remove('brown')
+    questionBlockTitle.classList.remove('green')
     questionBlockQuestion.textContent = `${questions[0].question}`
     answerTitle.textContent = 'Choose an answer :'
     questions[0].answer.map((item, index) => {

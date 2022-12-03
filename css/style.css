@@ -197,7 +197,7 @@ body {
 
 .main__question p {
   color: #5F413A;
-  width: 700px;
+  width: 75%;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -213,6 +213,14 @@ body {
   font-weight: 700;
   text-align: center;
   padding: 20px 0;
+}
+.brown {
+  color: #5F413A;
+}
+
+
+.green {
+  color: rgb(168, 223, 95);
 }
 
 .question-block-question {
@@ -374,7 +382,7 @@ body {
   }
   
   .main__question {    
-    height: 180px;
+    height: auto;
     font-size: 24px;
   }
   
@@ -384,7 +392,7 @@ body {
   }
     
   .question-block-question {
-    padding: 10px 20px 10px 10px;
+    padding: 10px 20px 20px 10px;
     text-align: center;
   }
   .question-block-note {
